@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Voice Selfie App</title>
+</head>
+<body>
+	<header>
+		<h1>Voice Selfie Application<h1>
+		<h2>Just Say "Take my selfie" and you will get your selfie taken</h2>
+		<h6 id="note">Note: Please allow the site to access your camera and microphone via chrome website settings so that we can take your selfie</h6>
+	</header>
+	<center> 
+		<div class = "container">
+			<div class = "content">
+				<textarea class = "output" id = "output" placeholder="Your voice output goes here"></textarea>
+			</div>
+			<div class = "cameraspace">
+				<div id = "webcam">Webcam</div>
+				<div id = "selfie">Selfie</div>
+			</div>
+			<div>
+				<button class = "btn" onclick = "start()">Start</button>
+			</div>
+		</div>
+	</center>
+</body>
+</html>

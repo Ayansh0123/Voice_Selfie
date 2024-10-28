@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	background: skyblue;
+}
+header{
+	background: #F3FEB8;
+	margin: 20px 10px;
+	padding: 20px;
+	border: 5px double #88D66C;
+}
+#note{
+	color: red;
+}
+.container{
+	background: #BB9AB1;
+	margin: 20px 10px;
+	padding: 20px;
+	max-height: 1300px;
+	border: 2px solid black;
+}
+.cameraspace{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+#webcam, #selfie{
+	flex-basis: 50%;
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+.output{
+	width: 400px;
+	height: 100px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.btn{
+	width: 200px;
+	height: 100px;
+	border: 1px solid black;
+	background: greenyellow;
+	font-size: 30px;
+	margin: 10px;
+	padding: 10px;
+}
